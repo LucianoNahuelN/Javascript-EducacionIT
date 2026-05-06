@@ -21,3 +21,12 @@ const bienvenida = function(nombreADarLaBienvenida){
 bienvenida('Pedro')
 bienvenida('Juan')
 bienvenida('Diego')
+
+;(function(){
+  console.log('funcion anonima')
+})()
+
+const noAnonima = () => {
+  console.log('funcion no anonima')
+}
+noAnonima()
